@@ -1,5 +1,42 @@
-__pycache__/
-.ipynb_checkpoints/
+# 🐍 Python
 *.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# 📦 Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+Pipfile.lock
+
+# 💾 Data / model artifacts (ak používaš pickle, model files)
 *.pkl
-.env
+*.h5
+*.joblib
+
+# 📓 Jupyter
+.ipynb_checkpoints/
+
+# 🛠 VSCode
+.vscode/
+
+# 💻 OS / editor artifacts
+.DS_Store
+Thumbs.db
+
+# 🔑 Secrets (ak budeš niečo pridávať)
+*.env
+*.secret
+
+# ⚠ Logs / outputs
+*.log
+*.out
+*.tmp
+
+# 🏗 Build artifacts
+build/
+dist/
+*.egg-info/
